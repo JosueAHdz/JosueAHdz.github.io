@@ -2,7 +2,7 @@
 
   var dc = {};
 
-  var homeHtml = "snippets/home-snippet.html";
+  var homeHtml = "index.html";
 
   var insertHtml = function (selector, html) {
     var targetElem = document.querySelector(selector);
