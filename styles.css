@@ -1,0 +1,178 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+}
+
+header {
+    background-color: #006064;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.appbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.appbar .logo img {
+    max-width: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos de secciones */
+section h2 {
+    color: #004d40;
+    margin-bottom: 20px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Estilos para la lista del menú */
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-list li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-list img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.menu-list h3 {
+    margin: 0;
+    color: #007BFF;
+}
+
+.menu-list p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+/* Efectos de hover */
+.menu-list li:hover {
+    background-color: #b2ebf2;
+    border-left: 4px solid #007BFF;
+    padding-left: 16px;
+}
+
+/* Estilos para la lista de especies */
+.species-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.species-list li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.species-list img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.species-list h3 {
+    margin: 0;
+    color: #28a745;
+}
+
+.species-list p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+/* Efectos de hover */
+.species-list li:hover {
+    background-color: #b2ebf2;
+    border-left: 4px solid #28a745;
+    padding-left: 16px;
+}
+
+/* Estilos para la lista de comentarios */
+.comments-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comments-list li {
+    margin-bottom: 20px;
+}
+
+.comments-list p {
+    margin: 0;
+    color: #555;
+}
+
+.comments-list strong {
+    color: #004d40;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #006064;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
